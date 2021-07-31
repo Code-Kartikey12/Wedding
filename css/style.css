@@ -566,16 +566,16 @@ button:focus{
 }
 
 .single-team-member {
-    position: relative;
+    position: centre;
     margin-top: 30px;
 	border: 10px solid #fff;
 	box-shadow: 0 2px 5px rgba(0,0,0,.1);
 }
 .family-img{
-	position: relative;
+	position: centre;
 }
 .family-img::after {
-    position: absolute;
+    position: centre;
     top: 0;
     left: 0;
     visibility: hidden;
