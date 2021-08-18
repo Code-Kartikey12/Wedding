@@ -664,6 +664,16 @@ button:focus{
 	opacity: 1;
 }
 
+.gallery-box iframe {
+    position: relative;
+	overflow: hidden;
+	/* padding-bottom: 56.25%; */
+	/* padding-top: 35px; */
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
 /*------------------------------------------------------------------
     Live Stream
 -------------------------------------------------------------------*/
@@ -676,17 +686,7 @@ button:focus{
     overflow: hidden;
 } */
 
-.gallery-box iframe {
-	position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-    top:0;
-    left: 0;
-    width: 50%;
-    height: 1000%;
-}
+
 
 /*------------------------------------------------------------------
     Events
